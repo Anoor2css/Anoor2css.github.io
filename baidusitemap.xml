@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+    
+  <url>
+    <loc>http://anoor.me/2016/06/30/test2/</loc>
+    <lastmod>2016-06-29T20:59:03.118Z</lastmod>
+    <data>
+        <display>
+        <title>Test2</title>
+        <pubTime>2016-06-29T20:41:14.790Z</pubTime>
+        
+        <tag>Test1</tag>
+         
+        <tag>Test2</tag>
+         
+         
+           
+             
+              <breadCrumb title="Test" url="http://anoor.me/categories/Test/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://anoor.me/2016/06/29/hello-world/</loc>
+    <lastmod>2016-06-29T20:32:56.547Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2016-06-28T23:40:06.214Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+  <url>
+    <loc>http://anoor.me/2016/06/29/Test/</loc>
+    <lastmod>2016-06-29T00:02:23.042Z</lastmod>
+    <data>
+        <display>
+        <title>Test</title>
+        <pubTime>2016-06-29T00:02:23.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
