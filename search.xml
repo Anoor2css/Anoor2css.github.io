@@ -6,7 +6,7 @@
     <entry>
       <title><![CDATA[Test2]]></title>
       <url>http://anoor.me/2016/06/30/test2/</url>
-      <content type="html"><![CDATA[<p>fdsflksafdskf<br>dsf<br>ds<br>fdsa<br>fd<br>s<br>af</p>
+      <content type="html"><![CDATA[<p>fdsflksafdskf<br>dsf<br>ds<br>fdsa<br>fd<br>s<br>af<br><a id="more"></a></p>
 <p>fdsfs<br>dfdsafdsafsadf<br>a</p>
 ]]></content>
     </entry>
