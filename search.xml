@@ -4,32 +4,464 @@
   
     
     <entry>
-      <title><![CDATA[Test2]]></title>
-      <url>http://anoor.me/2016/06/30/test2/</url>
-      <content type="html"><![CDATA[<p>fdsflksafdskf<br>dsf<br>ds<br>fdsa<br>fd<br>s<br>af<br><a id="more"></a></p>
-<p>fdsfs<br>dfdsafdsafsadf<br>a</p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Test]]></title>
-      <url>http://anoor.me/2016/06/29/Test/</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>http://anoor.me/2016/06/29/hello-world/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a>
-<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+      <title><![CDATA[R test]]></title>
+      <url>http://anoor.me/2016/07/01/Test/</url>
+      <content type="html"><![CDATA[<p><img src="/images/test1.jpg" alt=""></p>
+<h1 id="Test-Rmarkdown-amp-rCharts"><a href="#Test-Rmarkdown-amp-rCharts" class="headerlink" title="Test Rmarkdown &amp; rCharts"></a>Test Rmarkdown &amp; rCharts</h1><p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" target="_blank" rel="external">http://rmarkdown.rstudio.com</a>.</p>
+<a id="more"></a>
+<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
+<h2 id="R-lang-highlight-test"><a href="#R-lang-highlight-test" class="headerlink" title="R lang highlight test"></a>R lang highlight test</h2><figure class="highlight r"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">library</span>(rCharts)</div><div class="line">hair_eye_male = subset(as.data.frame(HairEyeColor), Sex == <span class="string">"Male"</span>)</div><div class="line">n1 &lt;- nPlot(Freq ~ Hair, group = <span class="string">'Eye'</span>, </div><div class="line">            data = hair_eye_male, type = <span class="string">'multiBarChart'</span></div><div class="line">)</div><div class="line">n1$set(width = <span class="number">600</span>)</div><div class="line"></div><div class="line"><span class="keyword">library</span>(knitr)</div><div class="line">opts_chunk$set(comment = <span class="literal">NA</span>, results = <span class="string">"asis"</span>, comment = <span class="literal">NA</span>, tidy = <span class="literal">F</span>)</div><div class="line"></div><div class="line">xx &lt;- n1$show(<span class="string">'iframesrc'</span>, cdn = <span class="literal">TRUE</span>)</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">##      speed           dist       </div><div class="line">##  Min.   : 4.0   Min.   :  2.00  </div><div class="line">##  1st Qu.:12.0   1st Qu.: 26.00  </div><div class="line">##  Median :15.0   Median : 36.00  </div><div class="line">##  Mean   :15.4   Mean   : 42.98  </div><div class="line">##  3rd Qu.:19.0   3rd Qu.: 56.00  </div><div class="line">##  Max.   :25.0   Max.   :120.00</div></pre></td></tr></table></figure>
+<p>You can also embed plots, for example:</p>
+<h2 id="img-test"><a href="#img-test" class="headerlink" title="img test"></a>img test</h2><p><br><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAqAAAAHgCAMAAABNUi8GAAAAVFBMVEUAAAAAADoAAGYAOjoAOpAAZrY6AAA6ADo6AGY6Ojo6kNtmAABmADpmkJBmtv+QOgCQkGaQtpCQ2/+2ZgC2///bkDrb////tmb/25D//7b//9v////Urxv7AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAOFElEQVR4nO3d6XrbRoKGUSpjKTPRtNUthtZ2//fZXEQtsUARZC0fwHN+pNWxHsKwXgNVRQa1eIFgi96/AThEoEQTKNEESjSBEk2gRBMo0QRKNIESTaBEEyjRBEo0gRJNoEQTKNEESjSBEk2gRBMo0QRKNIESTaBEEyjRBEo0gRJNoEQTKNEESjSBEk2gRBMo0QRKNIESTaBEEyjRBEo0gRJNoEQTKNEESjSBEk2gRBMo0QRKNIESTaBEEyjRBEo0gRJNoEQTKNEESjSBEk2gRBMo0QRKNIESTaBEEyjRBEo0gRJNoEQTKNEESjSBEk2gRBMo0QRKNIESTaBEEyjRBEo0gRJNoEQTKNEESrRxgT7fLbb++LvSbwc+GxXoavHX7ouH/Re/vRwcpUagz3dvWa5+/Dr75bhgVQJ9uv25//Jh4CYvUI7iCkq0KoGux6Cvl9DhMeiYl+Ny1Ql0fZPfjXAHrp8C5UiVAm39csyVQIlWKdDV+va+HYauzOL5bMTa5ku1SdLV/XoYev0iUP5p8TLqp19xmen5bj1FEiifLD788/jvL/mNL+8L9csfv/4R6Ph3sJiXiEDfFuqX166gfBIR6NuN/el26PNMAr1UCWPQ97eSnu8EymcJs/jmL8dcCZRoAiWaQIlWaR30fb3TJIlz1LmCDk7eT3s5LlelW/zz3XXJl+Ni1RqDPix+Hvx1gXIUkySiCZRoAiWaQIkmUKIJlGgCJZpAiSZQogmUaAIlmkCJJlCiCZRoAiWaQIkmUKIJlGgCJZpAiSZQogmUaAIlmkCJVu3JIgefzCRQjlTpEeDf7xc/5uW4XHU3UbDbMWequg3Ni/3iOZMrKNFqjUHtF08RlWbx9ounDOugRBMo0SzUE81CPdEsMxGt8UK9/eIZxxWUaBbqiWahnmjWQYkmUKIJlGgCJVqldVD7xVNGnSuo/eIppNqHRewXTwm1xqD2i6cIkySiCZRoAqWxcR9lEyhtLV5G/fQFSlOL7RX0+B+/QGlqe38fcZMXKE0tPvzz+O8v+Y1dXo6pcAUlmjEo2cziyWYdlBkRKNEESjSBEk2gRBMo0QRKNIESTaBEEyjRBEqKL98DFSghvv4UiUBnbjJPWx/4JLNA523kh9s6EuglGvsfWHQk0Es0oUCNQS/RlAJtOou3FWKI6YxBB9QJ1FaIMSYzix9QJVAbeVFKlUCHt0I86eW4YK6gRKs1BrUV4nGmPkSsrtIs3laIx5n8JLs666A9TWqZso/Ggdov/hOBfqtSoMvF4nq7WD+014cfyoZAv1VpkrQeey4X15uxqEnSIcag36m3zPRwdf9imek7BjvfqLdQv1uit1DPWVxBiVZ5DPrhPaUzXo7TTX0MYRY/b5OfhVmon7Xpr2MJdNYEWv24nEOg1Y/LWYxBax+X85jFVz4ul02gRBMo0QRKNIESTaBEEyjRBEpjdjsm2cj3tgRKU2M/HSBQmhIo0QTKUbp9iMQYlCN0/BieWTzfms4HmQV6kQTa+OUYR6CNX46RCo5B6063BHqhimVVebolUM5Se7AwPtCn/7/f/u/QY8EKH5dsuYGuBEpeoMv3h3gPPBas8HFpbOzgNG4Mur+CNjoubY3vzSyeduIWSE8IdPPc+dWBLZDKHpem5hDo8sevx5vrl+X1ge+2HfdEzSDQzQPoHxY/Dy4z2Y57sjp+zOlLpwW6XMd5YJnJZrITFva0sVNu8ddPtz9+Pd0O3+Jtx00pJ02SFlf3z3cHhqCuoJRSZ5nJdtzHCruh5qm0Dmo77uOkTUnyWKjvKW5RJ8/IQJ9u/9pfHIfXOA+9iu24PxLotypdQTfrUI83i8XV0Pv2figbAv1WnUC3ff55/2nB6YyXmy9j0O+MvsW/36SHb/HbXeJ3b4VaZjrMYOcbJ1xBd0tHD4N3791183Ut1EI9Zxkf6H6JfujauLG5eq5cQTnfae/Fbxz6sMjT7R9/f9g0/pzjctlOuYLu3hxaHvxA6MNunDr4fqhAGxk9yA0bFZ80Bt1cQlcHxqAlj8tZRi8TpK0rnLLMtJ3Kn/eB+qg/gxkbvdAatzLrrc5ZE2j143IOgVY/7oUqNVXpOAYtcwoCjdQxk25/NYZfpuw3dnm5mYm70Y5X6hQEmkig/3idkt/Y5eVmpmeghW7xAp21fsvlxY5sDDprvd5wLHjtNounvLjRr0D5SKB1Xo6w5ctiBDoPaW8AFSPQWYi7Mxcj0FkQqECjCVSg2YxBBZrNLL7TcWkqbqwgUD4SaJ2XoxCB1nm5dGEzj5fh35ExaJWXC5f2Uz/0Owr7uyTQBuLum4G/oyECbSAvh7zf0RCBNpCXQ97vaIhAW5jSGDSMQJsIm3m8JP6OviZQogmUaJUCtV98iqncyofUCdR+8SkmMxkaUiVQux2nmM5y0pAqgdovPoVAv+QKmkKgX7NffC2Dc56BXzAG/Zr94usY7G34F8zi6x6XDwbv2NO/lQ9pHKj94s8i0ALf+MHjzcBm3PP8s6xPoAW+8eWoTbvn+GfZwPgx6NTVuYK+Tt5dQYsbO4ufvGqz+M38XaCcq9oYdHl1L1DOVm+StFr8JdBvdbszT2VIUHEW/3jzPwL9Rre5zWQmVTWXmZ7vFgI9qNvq0HSWpbyT1JNAvyXQngT6LYEeUmwmEfckJGPQti9XR7Gf4vALmcV/Q6DDit0Hp3NDzSPQYQININBhAg0g0AMajEFHv1L1D4uEDU4FekjcT73+x+3SpvcCnZL6H1iOG40IdEoEWuAbu7zchRBogW/s8nKXwhj0/G/s8nIXwyz+7G/s8nLMlUCJJtBTXNx/W9mPQE9Qf6rCnkDHq7/YwxuBjifQhgQ6nkAbEughY58KO/wLY2dVZluvBHpAsd5GF222tSfQYfXf4B76BWOFNwIdJtAAAh0m0AACPWD8SNAYtDSBHjJ2Lm0WX5xAC3JnLk+gBQm0vEqBXuZ23AItr06gnbfj7vfAoxd9FlYl0M6byXbMxNymtCqB9t2O2412TmZ4BRXonNQag3bcjrtnoHP9byv7qTSL77odd78xaLEjm23tzXIdtNflp/6b95encaDz3o5boOVVCnS1TnA7DF1d0m7HAi2v0iTp6n49DL1+mXqgxT4sMvrApV5o8iouMz3fradIkw602MftTjj0PAdB41VdqF/++DXlQN1oA9RdqF9ezzNQ17dmKo1BX7N8uh36PNMUfsCDgRohtlNtFr+7yT/fJQVaaM7j1t/QLBfqDxyzxJxHoA1dUKBWKadIoCe+kj7bEOhJL2UW38oFBdriwqfc0i4p0Pr5uPcXd1GB1mb2VJ5ACxJoeQItSKDlCbQkY9DiBFqUWXxpAiWaQImWFGi/+6M7c6ygQPvNMMxtcuUE2m+NxupQMIEKNJpABRotJ1BjUL4QFKhZPL9LChR+I1CiCZRoAiWaQIkmUKIJlGgCJdosA7XuPh9zDNQ7lzMyw0B99mNOBEq0pEALDR0FOidBgRYbOhqDzkhOoAUvfGbx8zHLQJkPgRKtUqDPd7stYwf2+Aj7Tz7IVSfQ1eJ1J6+H/RfHvJyhI7+pEujbTnPrVH/8OvvluGBVAt3v1bn28PkmP+/94inPFZRotcagr5fQUWNQ+E2lWfzT7e5GPnD9FChHylkHhS8IlGgCJVq3QOEonQIdpd+xHXkyRxaoI0cfWaCOHH1kgTpy9JEF6sjRRxaoI0cfWaCOHH1kgTpy9JEF6sjRR/beJNEESjSBEk2gRBMo0QRKNIESTaBEEyjRBEo0gRJNoEQTKNF6Bbp7iM51+wM//u/2uXwPi8XVfY8jNz/x7UOHt4/San3Ob0c+55x7Bfr4Z+M8Xj3dbh8c+bD+ST20LfT1yK1P/PlufZqrTR2tz/n9yOecc69AHwafIl73sLvHl+8eJLlseQF/PXLzE3+82TyRcPXH383P+e3IZ51zr0BXHe7u28dGbv+w3v/sWh+514lf3bc/5/2RzzrnXoEu/28/MmpsF+j2ntP4YrY7XJ8TX/7xd5dz3h75rHPuFOjT7eYRo8sOhW5/QruhWONB6PbIfU5888DhLue8PfJZ59x1manHQLRzoL992eTI+zlS+3N+n7ufeM5dA90Ni9rqfYvfanviuwe29zjnj4+KP/Gc+wbaYa2p0yTp5XOgLU/8dXerDue8+jjwPPGcOwW6+9PqdovvsMz06a9GyxPf73zR/pz3Rz7rnLvN4jd/UN0mST0W6vez+MYn/nizP1brc34/8jnn3O0Wv1wsFu1HoG9/kVft3+p8PXLjE1/tHmi8OdnG5/zhyGecsw+LEE2gRBMo0QRKNIESTaBEEyjRBEo0gRJNoEQTKNEESjSBEk2gRBMo0QRKNIESTaBEEyjRBEo0gRJNoEQTKNEESjSBEk2gRBMo0QTaResHl02XQLsQ6LEE2oVAjyXQoh5vtg8afPzzPzev+1qsFl98cfVvgR5JoCVtnyX8sPi57vTn5n/XNa5L3D7J9e2Lzb4sD80fTjpZAi1p/5jr3cOFVz9+Pd3+tfvXb1/snoe9FOiRBFrS636c+6eyX93vxprr//v+xdsjyDmGQIvabvD7c7/lyzrQ3WOwFz/fvlgJdBSBFre+fb8Hug/x/QuBjiLQ4p5uf+7GoMvNGPTn27/cffG6XZFAjyTQkrYXxu3OwpstX/az+O2U6NMXZvFHE2hRD7t9Vx5v/nXzuvHKZvlztw/3hy+sgx5NoDX02IR0pgRag0CLEWgNAi1GoEQTKNEESjSBEk2gRBMo0QRKNIESTaBEEyjRBEo0gRJNoEQTKNEESjSBEk2gRBMo0QRKNIESTaBE+y/3C3gEwb99+AAAAABJRU5ErkJggg=="><!-- --><br></p>
+
+
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<h2 id="table-test"><a href="#table-test" class="headerlink" title="table test"></a>table test</h2><table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:right">mpg</th>
+<th style="text-align:right">cyl</th>
+<th style="text-align:right">disp</th>
+<th style="text-align:right">hp</th>
+<th style="text-align:right">drat</th>
+<th style="text-align:right">wt</th>
+<th style="text-align:right">qsec</th>
+<th style="text-align:right">vs</th>
+<th style="text-align:right">am</th>
+<th style="text-align:right">gear</th>
+<th style="text-align:right">carb</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Mazda RX4</td>
+<td style="text-align:right">21.0</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">160.0</td>
+<td style="text-align:right">110</td>
+<td style="text-align:right">3.90</td>
+<td style="text-align:right">2.620</td>
+<td style="text-align:right">16.46</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">4</td>
+</tr>
+<tr>
+<td style="text-align:left">Mazda RX4 Wag</td>
+<td style="text-align:right">21.0</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">160.0</td>
+<td style="text-align:right">110</td>
+<td style="text-align:right">3.90</td>
+<td style="text-align:right">2.875</td>
+<td style="text-align:right">17.02</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">4</td>
+</tr>
+<tr>
+<td style="text-align:left">Datsun 710</td>
+<td style="text-align:right">22.8</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">108.0</td>
+<td style="text-align:right">93</td>
+<td style="text-align:right">3.85</td>
+<td style="text-align:right">2.320</td>
+<td style="text-align:right">18.61</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td style="text-align:left">Hornet 4 Drive</td>
+<td style="text-align:right">21.4</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">258.0</td>
+<td style="text-align:right">110</td>
+<td style="text-align:right">3.08</td>
+<td style="text-align:right">3.215</td>
+<td style="text-align:right">19.44</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td style="text-align:left">Hornet Sportabout</td>
+<td style="text-align:right">18.7</td>
+<td style="text-align:right">8</td>
+<td style="text-align:right">360.0</td>
+<td style="text-align:right">175</td>
+<td style="text-align:right">3.15</td>
+<td style="text-align:right">3.440</td>
+<td style="text-align:right">17.02</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">Valiant</td>
+<td style="text-align:right">18.1</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">225.0</td>
+<td style="text-align:right">105</td>
+<td style="text-align:right">2.76</td>
+<td style="text-align:right">3.460</td>
+<td style="text-align:right">20.22</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td style="text-align:left">Duster 360</td>
+<td style="text-align:right">14.3</td>
+<td style="text-align:right">8</td>
+<td style="text-align:right">360.0</td>
+<td style="text-align:right">245</td>
+<td style="text-align:right">3.21</td>
+<td style="text-align:right">3.570</td>
+<td style="text-align:right">15.84</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">4</td>
+</tr>
+<tr>
+<td style="text-align:left">Merc 240D</td>
+<td style="text-align:right">24.4</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">146.7</td>
+<td style="text-align:right">62</td>
+<td style="text-align:right">3.69</td>
+<td style="text-align:right">3.190</td>
+<td style="text-align:right">20.00</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">Merc 230</td>
+<td style="text-align:right">22.8</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">140.8</td>
+<td style="text-align:right">95</td>
+<td style="text-align:right">3.92</td>
+<td style="text-align:right">3.150</td>
+<td style="text-align:right">22.90</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">Merc 280</td>
+<td style="text-align:right">19.2</td>
+<td style="text-align:right">6</td>
+<td style="text-align:right">167.6</td>
+<td style="text-align:right">123</td>
+<td style="text-align:right">3.92</td>
+<td style="text-align:right">3.440</td>
+<td style="text-align:right">18.30</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">4</td>
+<td style="text-align:right">4</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Plotly-test"><a href="#Plotly-test" class="headerlink" title="Plotly test"></a>Plotly test</h2><iframe src="https://plot.ly/~RPlotBot/501.embed" height="600" width="100%" scrolling="no" seamless="seamless" frameborder="0"><br></iframe>
+
+
+<h2 id="rCharts-test"><a href="#rCharts-test" class="headerlink" title="rCharts test"></a>rCharts test</h2><script type="text/javascript" src="http://ramnathv.github.io/rCharts/libraries/widgets/polycharts/js/polychart2.standalone.js"></script>
+ <style>
+  .rChart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 400px;
+  }
+  </style>
+<div id="chart132456ea2ce4" class="rChart polycharts"></div>
+<script type="text/javascript">
+    var chartParams = {
+ "dom": "chart132456ea2ce4",
+"width":    800,
+"height":    400,
+"layers": [
+ {
+ "x": "wt",
+"y": "mpg",
+"data": {
+ "mpg": [     21,     21,   22.8,   21.4,   18.7,   18.1,   14.3,   24.4,   22.8,   19.2,   17.8,   16.4,   17.3,   15.2,   10.4,   10.4,   14.7,   32.4,   30.4,   33.9,   21.5,   15.5,   15.2,   13.3,   19.2,   27.3,     26,   30.4,   15.8,   19.7,     15,   21.4 ],
+"cyl": [      6,      6,      4,      6,      8,      6,      8,      4,      4,      6,      6,      8,      8,      8,      8,      8,      8,      4,      4,      4,      4,      8,      8,      8,      8,      4,      4,      4,      8,      6,      8,      4 ],
+"disp": [    160,    160,    108,    258,    360,    225,    360,  146.7,  140.8,  167.6,  167.6,  275.8,  275.8,  275.8,    472,    460,    440,   78.7,   75.7,   71.1,  120.1,    318,    304,    350,    400,     79,  120.3,   95.1,    351,    145,    301,    121 ],
+"hp": [    110,    110,     93,    110,    175,    105,    245,     62,     95,    123,    123,    180,    180,    180,    205,    215,    230,     66,     52,     65,     97,    150,    150,    245,    175,     66,     91,    113,    264,    175,    335,    109 ],
+"drat": [    3.9,    3.9,   3.85,   3.08,   3.15,   2.76,   3.21,   3.69,   3.92,   3.92,   3.92,   3.07,   3.07,   3.07,   2.93,      3,   3.23,   4.08,   4.93,   4.22,    3.7,   2.76,   3.15,   3.73,   3.08,   4.08,   4.43,   3.77,   4.22,   3.62,   3.54,   4.11 ],
+"wt": [   2.62,  2.875,   2.32,  3.215,   3.44,   3.46,   3.57,   3.19,   3.15,   3.44,   3.44,   4.07,   3.73,   3.78,   5.25,  5.424,  5.345,    2.2,  1.615,  1.835,  2.465,   3.52,  3.435,   3.84,  3.845,  1.935,   2.14,  1.513,   3.17,   2.77,   3.57,   2.78 ],
+"qsec": [  16.46,  17.02,  18.61,  19.44,  17.02,  20.22,  15.84,     20,   22.9,   18.3,   18.9,   17.4,   17.6,     18,  17.98,  17.82,  17.42,  19.47,  18.52,   19.9,  20.01,  16.87,   17.3,  15.41,  17.05,   18.9,   16.7,   16.9,   14.5,   15.5,   14.6,   18.6 ],
+"vs": [      0,      0,      1,      1,      0,      1,      0,      1,      1,      1,      1,      0,      0,      0,      0,      0,      0,      1,      1,      1,      1,      0,      0,      0,      0,      1,      0,      1,      0,      0,      0,      1 ],
+"am": [      1,      1,      1,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      1,      1,      1,      0,      0,      0,      0,      0,      1,      1,      1,      1,      1,      1,      1 ],
+"gear": [      4,      4,      4,      3,      3,      3,      3,      4,      4,      4,      4,      3,      3,      3,      3,      3,      3,      4,      4,      4,      3,      3,      3,      3,      3,      4,      5,      5,      5,      5,      5,      4 ],
+"carb": [      4,      4,      1,      1,      2,      1,      4,      2,      2,      4,      4,      3,      3,      3,      4,      4,      4,      1,      2,      1,      1,      2,      2,      4,      2,      1,      2,      2,      4,      6,      8,      2 ]
+},
+"facet": [ "am", "vs" ],
+"type": "point",
+"color": "gear"
+}
+],
+"facet": {
+ "type": "grid",
+"x": "am",
+"y": "vs"
+},
+"guides": [],
+"coord": [],
+"id": "chart132456ea2ce4"
+}
+    _.each(chartParams.layers, function(el){
+        el.data = polyjs.data(el.data)
+    })
+    var graph_chart132456ea2ce4 = polyjs.chart(chartParams);
+</script>
+
+
+
+
+<script type="text/javascript" src="//ramnathv.github.io/rCharts/libraries/widgets/polycharts/js/polychart2.standalone.js"></script> 
+ <style>
+  .rChart {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 800px;
+    height: 400px;
+  }  
+  </style>
+<div id="chart21f43d217ef7" class="rChart polycharts"></div>
+<script type="text/javascript">
+    var chartParams = {
+ "dom": "chart21f43d217ef7",
+"width":    800,
+"height":    400,
+"layers": [
+ {
+ "x": "wt",
+"y": "mpg",
+"data": {
+ "mpg": [     21,     21,   22.8,   21.4,   18.7,   18.1,   14.3,   24.4,   22.8,   19.2,   17.8,   16.4,   17.3,   15.2,   10.4,   10.4,   14.7,   32.4,   30.4,   33.9,   21.5,   15.5,   15.2,   13.3,   19.2,   27.3,     26,   30.4,   15.8,   19.7,     15,   21.4 ],
+"cyl": [      6,      6,      4,      6,      8,      6,      8,      4,      4,      6,      6,      8,      8,      8,      8,      8,      8,      4,      4,      4,      4,      8,      8,      8,      8,      4,      4,      4,      8,      6,      8,      4 ],
+"disp": [    160,    160,    108,    258,    360,    225,    360,  146.7,  140.8,  167.6,  167.6,  275.8,  275.8,  275.8,    472,    460,    440,   78.7,   75.7,   71.1,  120.1,    318,    304,    350,    400,     79,  120.3,   95.1,    351,    145,    301,    121 ],
+"hp": [    110,    110,     93,    110,    175,    105,    245,     62,     95,    123,    123,    180,    180,    180,    205,    215,    230,     66,     52,     65,     97,    150,    150,    245,    175,     66,     91,    113,    264,    175,    335,    109 ],
+"drat": [    3.9,    3.9,   3.85,   3.08,   3.15,   2.76,   3.21,   3.69,   3.92,   3.92,   3.92,   3.07,   3.07,   3.07,   2.93,      3,   3.23,   4.08,   4.93,   4.22,    3.7,   2.76,   3.15,   3.73,   3.08,   4.08,   4.43,   3.77,   4.22,   3.62,   3.54,   4.11 ],
+"wt": [   2.62,  2.875,   2.32,  3.215,   3.44,   3.46,   3.57,   3.19,   3.15,   3.44,   3.44,   4.07,   3.73,   3.78,   5.25,  5.424,  5.345,    2.2,  1.615,  1.835,  2.465,   3.52,  3.435,   3.84,  3.845,  1.935,   2.14,  1.513,   3.17,   2.77,   3.57,   2.78 ],
+"qsec": [  16.46,  17.02,  18.61,  19.44,  17.02,  20.22,  15.84,     20,   22.9,   18.3,   18.9,   17.4,   17.6,     18,  17.98,  17.82,  17.42,  19.47,  18.52,   19.9,  20.01,  16.87,   17.3,  15.41,  17.05,   18.9,   16.7,   16.9,   14.5,   15.5,   14.6,   18.6 ],
+"vs": [      0,      0,      1,      1,      0,      1,      0,      1,      1,      1,      1,      0,      0,      0,      0,      0,      0,      1,      1,      1,      1,      0,      0,      0,      0,      1,      0,      1,      0,      0,      0,      1 ],
+"am": [      1,      1,      1,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      1,      1,      1,      0,      0,      0,      0,      0,      1,      1,      1,      1,      1,      1,      1 ],
+"gear": [      4,      4,      4,      3,      3,      3,      3,      4,      4,      4,      4,      3,      3,      3,      3,      3,      3,      4,      4,      4,      3,      3,      3,      3,      3,      4,      5,      5,      5,      5,      5,      4 ],
+"carb": [      4,      4,      1,      1,      2,      1,      4,      2,      2,      4,      4,      3,      3,      3,      4,      4,      4,      1,      2,      1,      1,      2,      2,      4,      2,      1,      2,      2,      4,      6,      8,      2 ] 
+},
+"facet": null,
+"color": "gear",
+"type": "point" 
+} 
+],
+"facet": [],
+"guides": [],
+"coord": [],
+"id": "chart21f43d217ef7" 
+}
+    _.each(chartParams.layers, function(el){
+        el.data = polyjs.data(el.data)
+    })
+    var graph_chart21f43d217ef7 = polyjs.chart(chartParams);
+</script>
+
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<p><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.css"></p>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="//d3js.org/d3.v3.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.js"></script>
+<script type="text/javascript" src="//nvd3.org/assets/lib/fisheye.js"></script> 
+ <style>
+  .rChart {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 800px;
+    height: 400px;
+  }  
+  </style>
+<div id="chart" class="rChart nvd3"></div>
+<script type="text/javascript">
+ $(document).ready(function(){
+      drawchart()
+    });
+    function drawchart(){  
+      var opts = {
+ "dom": "chart",
+"width":    800,
+"height":    400,
+"x": "Hair",
+"y": "Freq",
+"group": "Eye",
+"type": "multiBarChart",
+"id": "chart" 
+},
+        data = [
+ {
+ "Hair": "Black",
+"Eye": "Brown",
+"Sex": "Male",
+"Freq":             32 
+},
+{
+ "Hair": "Brown",
+"Eye": "Brown",
+"Sex": "Male",
+"Freq":             53 
+},
+{
+ "Hair": "Red",
+"Eye": "Brown",
+"Sex": "Male",
+"Freq":             10 
+},
+{
+ "Hair": "Blond",
+"Eye": "Brown",
+"Sex": "Male",
+"Freq":              3 
+},
+{
+ "Hair": "Black",
+"Eye": "Blue",
+"Sex": "Male",
+"Freq":             11 
+},
+{
+ "Hair": "Brown",
+"Eye": "Blue",
+"Sex": "Male",
+"Freq":             50 
+},
+{
+ "Hair": "Red",
+"Eye": "Blue",
+"Sex": "Male",
+"Freq":             10 
+},
+{
+ "Hair": "Blond",
+"Eye": "Blue",
+"Sex": "Male",
+"Freq":             30 
+},
+{
+ "Hair": "Black",
+"Eye": "Hazel",
+"Sex": "Male",
+"Freq":             10 
+},
+{
+ "Hair": "Brown",
+"Eye": "Hazel",
+"Sex": "Male",
+"Freq":             25 
+},
+{
+ "Hair": "Red",
+"Eye": "Hazel",
+"Sex": "Male",
+"Freq":              7 
+},
+{
+ "Hair": "Blond",
+"Eye": "Hazel",
+"Sex": "Male",
+"Freq":              5 
+},
+{
+ "Hair": "Black",
+"Eye": "Green",
+"Sex": "Male",
+"Freq":              3 
+},
+{
+ "Hair": "Brown",
+"Eye": "Green",
+"Sex": "Male",
+"Freq":             15 
+},
+{
+ "Hair": "Red",
+"Eye": "Green",
+"Sex": "Male",
+"Freq":              7 
+},
+{
+ "Hair": "Blond",
+"Eye": "Green",
+"Sex": "Male",
+"Freq":              8 
+} 
+]
+
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+
+
+
+
+
+
+
+
+
+
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
 ]]></content>
     </entry>
     

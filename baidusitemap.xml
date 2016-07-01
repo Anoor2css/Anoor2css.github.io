@@ -4,35 +4,12 @@
 
     
   <url>
-    <loc>http://anoor.me/2016/06/30/test2/</loc>
-    <lastmod>2016-06-30T01:08:44.476Z</lastmod>
+    <loc>http://anoor.me/2016/07/01/Test/</loc>
+    <lastmod>2016-07-01T05:34:50.537Z</lastmod>
     <data>
         <display>
-        <title>Test2</title>
-        <pubTime>2016-06-29T20:41:14.790Z</pubTime>
-        
-        <tag>Test1</tag>
-         
-        <tag>Test2</tag>
-         
-         
-           
-             
-              <breadCrumb title="Test" url="http://anoor.me/categories/Test/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
-    <loc>http://anoor.me/2016/06/29/hello-world/</loc>
-    <lastmod>2016-06-29T20:32:56.547Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2016-06-28T23:40:06.214Z</pubTime>
+        <title>R test</title>
+        <pubTime>2016-06-30T16:00:00.000Z</pubTime>
         
          
            
@@ -43,18 +20,4 @@
     
     
     
-  <url>
-    <loc>http://anoor.me/2016/06/29/Test/</loc>
-    <lastmod>2016-06-29T00:02:23.042Z</lastmod>
-    <data>
-        <display>
-        <title>Test</title>
-        <pubTime>2016-06-29T00:02:23.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
 </urlset>
