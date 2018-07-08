@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://anoor.me/"/>
+  <link href="https://anoor2css.github.io/"/>
   <updated>2018-07-08T13:06:27.223Z</updated>
-  <id>http://anoor.me/</id>
+  <id>https://anoor2css.github.io/</id>
   
   <author>
     <name>Oor.An</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>R test test2</title>
-    <link href="http://anoor.me/2018/07/01/Test%20-%20%E5%89%AF%E6%9C%AC/"/>
-    <id>http://anoor.me/2018/07/01/Test - 副本/</id>
+    <link href="https://anoor2css.github.io/2018/07/01/Test%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>https://anoor2css.github.io/2018/07/01/Test - 副本/</id>
     <published>2018-06-30T16:00:00.000Z</published>
     <updated>2018-07-08T13:06:27.223Z</updated>
     
@@ -487,17 +487,17 @@
     
     </summary>
     
-      <category term="test" scheme="http://anoor.me/categories/test/"/>
+      <category term="test" scheme="https://anoor2css.github.io/categories/test/"/>
     
     
-      <category term="test test2" scheme="http://anoor.me/tags/test-test2/"/>
+      <category term="test test2" scheme="https://anoor2css.github.io/tags/test-test2/"/>
     
   </entry>
   
   <entry>
     <title>R test test</title>
-    <link href="http://anoor.me/2016/07/01/Test/"/>
-    <id>http://anoor.me/2016/07/01/Test/</id>
+    <link href="https://anoor2css.github.io/2016/07/01/Test/"/>
+    <id>https://anoor2css.github.io/2016/07/01/Test/</id>
     <published>2016-06-30T16:00:00.000Z</published>
     <updated>2018-07-08T11:53:08.078Z</updated>
     
