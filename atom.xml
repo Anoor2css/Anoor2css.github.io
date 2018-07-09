@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anoor2css.github.io/"/>
-  <updated>2018-07-08T13:06:27.223Z</updated>
+  <updated>2018-07-08T15:39:08.847Z</updated>
   <id>https://anoor2css.github.io/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="https://anoor2css.github.io/2018/07/01/Test%20-%20%E5%89%AF%E6%9C%AC/"/>
     <id>https://anoor2css.github.io/2018/07/01/Test - 副本/</id>
     <published>2018-06-30T16:00:00.000Z</published>
-    <updated>2018-07-08T13:06:27.223Z</updated>
+    <updated>2018-07-08T15:39:08.847Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/images/test1.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h1 id=&quot;Test-Rmarkdown-amp-rCharts&quot;&gt;&lt;a href=&quot;#Test-Rmarkdown-amp-rCharts&quot; class=&quot;headerlink&quot; title=&quot;Test Rmarkdown &amp;amp; rCharts&quot;&gt;&lt;/a&gt;Test Rmarkdown &amp;amp; rCharts&lt;/h1&gt;&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&quot;http://rmarkdown.rstudio.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Input formular:&lt;br&gt;$$\alpha + \beta = F_b$$&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;When you click the &lt;strong&gt;Knit&lt;/strong&gt; button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:&lt;/p&gt;
 &lt;h2 id=&quot;R-lang-highlight-test&quot;&gt;&lt;a href=&quot;#R-lang-highlight-test&quot; class=&quot;headerlink&quot; title=&quot;R lang highlight test&quot;&gt;&lt;/a&gt;R lang highlight test&lt;/h2&gt;&lt;figure class=&quot;highlight r&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;library&lt;/span&gt;(rCharts)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hair_eye_male = subset(as.data.frame(HairEyeColor), Sex == &lt;span class=&quot;string&quot;&gt;&quot;Male&quot;&lt;/span&gt;)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;n1 &amp;lt;- nPlot(Freq ~ Hair, group = &lt;span class=&quot;string&quot;&gt;&#39;Eye&#39;&lt;/span&gt;, &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;            data = hair_eye_male, type = &lt;span class=&quot;string&quot;&gt;&#39;multiBarChart&#39;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;n1$set(width = &lt;span class=&quot;number&quot;&gt;600&lt;/span&gt;)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;library&lt;/span&gt;(knitr)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;opts_chunk$set(comment = &lt;span class=&quot;literal&quot;&gt;NA&lt;/span&gt;, results = &lt;span class=&quot;string&quot;&gt;&quot;asis&quot;&lt;/span&gt;, comment = &lt;span class=&quot;literal&quot;&gt;NA&lt;/span&gt;, tidy = &lt;span class=&quot;literal&quot;&gt;F&lt;/span&gt;)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;xx &amp;lt;- n1$show(&lt;span class=&quot;string&quot;&gt;&#39;iframesrc&#39;&lt;/span&gt;, cdn = &lt;span class=&quot;literal&quot;&gt;TRUE&lt;/span&gt;)&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;##      speed           dist       &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;##  Min.   : 4.0   Min.   :  2.00  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;##  1st Qu.:12.0   1st Qu.: 26.00  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;##  Median :15.0   Median : 36.00  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;##  Mean   :15.4   Mean   : 42.98  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;##  3rd Qu.:19.0   3rd Qu.: 56.00  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;##  Max.   :25.0   Max.   :120.00&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -484,6 +484,7 @@
     
       &lt;p&gt;&lt;img src=&quot;/images/test1.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h1 id=&quot;Test-Rmarkdown-amp-rCharts&quot;&gt;&lt;a href=&quot;#Test-Rmarkdown-amp-rCharts&quot; class=&quot;headerlink&quot; title=&quot;Test Rmarkdown &amp;amp; rCharts&quot;&gt;&lt;/a&gt;Test Rmarkdown &amp;amp; rCharts&lt;/h1&gt;&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&quot;http://rmarkdown.rstudio.com&quot;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Input formular:&lt;br&gt;$$\alpha + \beta = F_b$$&lt;br&gt;
     
     </summary>
     
